@@ -3,9 +3,10 @@
 // 1. IMPORTA TUS IMÁGENES AQUÍ
 // Asegúrate de que estos nombres de archivo y la ruta './assets/img/'
 // coincidan exactamente con cómo los tienes guardados en tu proyecto.
-import camaDobleImg from './assets/img/camadoble.jpg'; // Para Habitación Doble Estándar
-import camaImg from './assets/img/cama.jpg';      
-import camaaImg from './assets/Img/camaa.jpg';
+import camaDobleImg from './assets/img/camadoble.jpg'; 
+import camaImg from './assets/img/cama.jpg';
+// 🛑 CORRECCIÓN: Se cambia 'Img' a 'img'
+import camaaImg from './assets/img/camaa.jpg';
 // Si tienes una tercera imagen para la suite, la importarías aquí también:
 // import suiteDeluxeImg from './assets/img/suite-deluxe.jpg';
 
