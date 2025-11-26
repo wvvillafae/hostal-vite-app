@@ -3,10 +3,10 @@
 // 1. IMPORTA TUS IMÁGENES AQUÍ
 // Asegúrate de que estos nombres de archivo y la ruta './assets/img/'
 // coincidan exactamente con cómo los tienes guardados en tu proyecto.
-import camaDobleImg from './assets/img/camadoble.jpg'; 
-import camaImg from './assets/img/cama.jpg';
+import camaDobleimg from './assets/img/camadoble.jpg'; 
+import camaimg from './assets/img/cama.jpg';
 // 🛑 CORRECCIÓN: Se cambia 'Img' a 'img'
-import camaaImg from './assets/img/camaa.jpg';
+import camaaimg from './assets/img/camaa.jpg';
 // Si tienes una tercera imagen para la suite, la importarías aquí también:
 // import suiteDeluxeImg from './assets/img/suite-deluxe.jpg';
 
@@ -19,7 +19,7 @@ export const habitaciones = [
     descripcion: "Acogedora habitación con dos camas individuales o una doble.",
     servicios: ["WiFi gratis", "Baño privado", "Ventana al jardín"],
     // 2. ASIGNA LAS IMÁGENES IMPORTADAS A CADA HABITACIÓN
-    imagenUrl: camaDobleImg // <-- Asignamos 'camadoble.jpg' aquí
+    imagenUrl: camaDobleimg // <-- Asignamos 'camadoble.jpg' aquí
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const habitaciones = [
     capacidad: 4,
     descripcion: "Espaciosa suite con balcón privado y las mejores vistas al mar.",
     servicios: ["WiFi Premium", "Jacuzzi", "Desayuno incluido", "Minibar"],
-    imagenUrl: camaaImg // <-- Asignamos 'cama.jpg' aquí
+    imagenUrl: camaaimg // <-- Asignamos 'cama.jpg' aquí
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const habitaciones = [
     capacidad: 1,
     descripcion: "Perfecta para viajeros solos que buscan comodidad y buen precio.",
     servicios: ["WiFi gratis", "Baño privado", "Ventana al jardín"],
-    imagenUrl: camaImg // <-- Asignamos 'cama.jpg' aquí (puedes cambiarla si tienes otra)
+    imagenUrl: camaimg // <-- Asignamos 'cama.jpg' aquí (puedes cambiarla si tienes otra)
   },
 ];
 
