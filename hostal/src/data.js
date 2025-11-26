@@ -3,7 +3,7 @@
 // 1. IMPORTA TUS IMÁGENES AQUÍ
 // Asegúrate de que estos nombres de archivo y la ruta './assets/img/'
 // coincidan exactamente con cómo los tienes guardados en tu proyecto.
-import camaDobleimg from './assets/img/camadoble.jpg'; 
+import camadobleimg from './assets/img/camadoble.jpg'; 
 import camaimg from './assets/img/cama.jpg';
 // 🛑 CORRECCIÓN: Se cambia 'Img' a 'img'
 import camaaimg from './assets/img/camaa.jpg';
@@ -19,7 +19,7 @@ export const habitaciones = [
     descripcion: "Acogedora habitación con dos camas individuales o una doble.",
     servicios: ["WiFi gratis", "Baño privado", "Ventana al jardín"],
     // 2. ASIGNA LAS IMÁGENES IMPORTADAS A CADA HABITACIÓN
-    imagenUrl: camaDobleimg // <-- Asignamos 'camadoble.jpg' aquí
+    imagenUrl: camadobleimg // <-- Asignamos 'camadoble.jpg' aquí
   },
   {
     id: 2,
