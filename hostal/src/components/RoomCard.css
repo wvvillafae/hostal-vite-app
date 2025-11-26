@@ -1,0 +1,105 @@
+/* src/components/RoomCard.css */
+
+.room-card {
+  border: none; /* Quitamos el borde para un look más limpio */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Sombra profunda y elegante */
+  background-color: var(--color-claro);
+  transition: transform 0.3s ease;
+}
+
+.room-card:hover {
+    transform: translateY(-5px); /* Pequeño levantamiento al pasar el mouse */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.room-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--color-principal);
+  color: var(--color-claro);
+  padding: 10px 15px;
+  font-size: 1.1em;
+  font-weight: 700;
+  z-index: 10;
+  border-bottom-left-radius: 12px; /* Esquina redondeada */
+}
+
+.room-details {
+  padding: 30px 25px;
+}
+
+.room-details h2 {
+  color: var(--color-principal);
+  margin-top: 0;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.description {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.capacity {
+  font-weight: 600;
+  color: var(--color-secundario);
+  margin-bottom: 15px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.services-list li {
+  margin-bottom: 8px;
+  color: var(--color-texto);
+  font-size: 0.9em;
+}
+
+.btn-reserva {
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
+  border: none;
+  padding: 12px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-reserva:hover {
+  background-color: #c9a547;
+  color: var(--color-claro);
+}
+/* src/components/RoomCard.css */
+
+.room-image-container {
+  position: relative;
+  /* Define la altura que quieres para la imagen. ¡Este es el factor limitante! */
+  height: 250px; 
+  overflow: hidden; /* Esto recorta cualquier parte de la imagen que se salga de la altura */
+  background-color: #e8e8e8; 
+}
+/* src/components/RoomCard.css */
+
+.room-image-tag {
+    width: 100%;
+    height: 100%;
+    /* CLAVE: Hace que la imagen cubra el área del contenedor sin estirarse, 
+       recortando lo necesario. */
+    object-fit: cover; 
+    display: block;
+}

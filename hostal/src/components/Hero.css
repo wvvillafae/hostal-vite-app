@@ -1,0 +1,60 @@
+/* src/components/Hero.css */
+
+.hero-section {
+    height: 70vh;
+    /* Asegúrate de cambiar la URL de la imagen por una de alta calidad de tu hotel */
+    background-image: url('https://picsum.photos/1920/1080?random=2'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    /* ESTILOS CLAVE: El hero-section debe tener el overlay para ocupar el 100% */
+    background-color: rgba(0, 0, 0, 0.55); /* Capa oscura directa sobre la imagen */
+    background-blend-mode: darken; /* Mezcla el color de fondo con la imagen */
+}
+
+.hero-overlay {
+    /* Eliminamos el fondo y el padding excesivo del overlay */
+    padding: 60px 20px;
+    border-radius: 0;
+    color: var(--color-claro);
+    max-width: 100%; /* Permitir que se expanda */
+    width: 100%;
+}
+
+.hero-overlay h1 {
+    font-size: 3.5em;
+    color: var(--color-secundario);
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.hero-overlay p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.btn-hero-principal {
+    /* ... (Los estilos del botón son correctos) ... */
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-hero-principal:hover {
+    background-color: #c9a547;
+    transform: translateY(-2px);
+}

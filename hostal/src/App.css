@@ -1,0 +1,52 @@
+/* src/App.css - Estilos Globales */
+
+/* 1. Reset Básico y Definición de Tipografía */
+:root {
+  --color-principal: #1A5276; /* Azul Oscuro Elegante (Navy) */
+  --color-secundario: #D4AF37; /* Dorado/Cobre (Para acentos y botones) */
+  --color-fondo: #F8F8F8; /* Gris Claro Suave para el fondo */
+  --color-texto: #333333; /* Texto principal oscuro */
+  --color-claro: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Fuente clásica y legible */
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* Estilos de Contenedor General */
+.hotel-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Estilo para los Títulos Principales */
+h1, h2 {
+    font-family: 'Playfair Display', serif; /* O una fuente serif elegante */
+    color: var(--color-principal);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Estilos para el Footer */
+.footer {
+  background-color: var(--color-principal);
+  color: var(--color-claro);
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9em;
+  margin-top: 50px;
+}
