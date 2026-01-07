@@ -103,3 +103,24 @@
     object-fit: cover; 
     display: block;
 }
+
+@media (max-width: 768px) {
+  .room-details {
+    padding: 20px 15px;
+    text-align: center; /* Centra todo el bloque */
+  }
+  .room-details h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .description, .capacity {
+    text-align: center;
+  }
+  .services-list {
+    display: inline-block;
+    text-align: left; /* Mantiene los checks alineados pero el bloque centrado */
+  }
+  .room-image-container {
+    height: 200px;
+  }
+}

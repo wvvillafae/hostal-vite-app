@@ -24,10 +24,15 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  /* Eliminamos el flex y place-items que causan el desajuste */
+  min-width: 100%; 
   min-height: 100vh;
+  overflow-x: hidden; /* Evita que la página baile de izquierda a derecha */
+}
+
+/* Agrega esto para asegurar que el centrado funcione en todos los navegadores */
+* {
+  box-sizing: border-box;
 }
 
 h1 {

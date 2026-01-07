@@ -51,3 +51,23 @@
   background-color: var(--color-principal);
   color: var(--color-claro);
 }
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    padding: 15px 0;
+    gap: 15px;
+  }
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .main-nav a {
+    margin: 0 8px;
+    font-size: 0.85em;
+  }
+  .btn-header-reserva {
+    width: 90%;
+    max-width: 250px;
+  }
+}

@@ -57,3 +57,24 @@
   background-position: right 10px center;
   background-size: 15px;
 }
+
+@media (max-width: 768px) {
+  .room-list-section {
+    padding: 30px 5%;
+  }
+  .rooms-container {
+    grid-template-columns: 1fr; /* Una sola columna */
+    justify-items: center;
+    gap: 30px;
+  }
+  .room-card {
+    max-width: 400px; /* Evita que la tarjeta sea excesivamente ancha */
+    width: 100%;
+  }
+  .filter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+}
